@@ -1,0 +1,708 @@
+html,
+body {
+  height: 100%;
+  font-family: 'Ropa Sans', sans-serif;
+}
+
+
+#wrap {
+  min-height: 100%;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -52px 0;
+  /* Pad bottom by footer height */
+  padding: 0 0 50px 0;
+}
+
+.container {
+  height:100%;
+}
+.container.stage {
+  border:4px solid #fff;
+}
+
+
+
+/* teaser
+------------------------- */
+.row {
+ height:100%;
+}
+.teaser {
+  display: table-cell;
+  height:100%;
+  width:100%;
+}
+
+.teaser-left {
+  height:100%;
+  display: table;
+  padding:0;
+
+}
+
+.teaser  > a > div.s33, .teaser > div.s33 {
+  height:33.33%;
+  border:2px solid #fff;
+}
+.teaser  > a > div.s66, .teaser > div.s66  {
+  height:66.66%;
+  border:2px solid #fff;
+}
+.teaser  > a > div.s100, .teaser > div.s100 {
+  height:100%;
+   border:4px solid #fff;
+}
+
+
+.teaserlink {
+  font-size:1.8em;
+  color:#fff;
+}
+
+.teaser-main > p.teaserlink{
+  position:absolute;
+  bottom:0px;
+  right:8%;
+  font-size:2.5em;
+  color:#fff;
+  text-shadow: 1px 1px 1px #333;
+}
+
+.teasertext {
+  position:absolute;
+  bottom:0px;
+  color:#707070;
+  font-size:1.1em;
+  width:92%;
+}
+.right {
+  text-align: right;
+}
+.floatright {
+  float: right;
+}
+.teasertitle{
+  font-size:2.5em;
+  color:#fff;
+}
+.grey{
+  color:#515151;
+}
+.ref   {
+  font-size:0.9em;
+  color:#707070;
+  line-height:1.3em;
+}
+.claim .fltext {
+  font-size:1.15em;
+  padding:0 25px;
+}
+.fltext.ref {
+  padding:5px;
+}
+
+/* panel
+------------------------- */
+
+.btn_closepanel, .btn_closepanel_down {
+  cursor:pointer;
+}
+.btn_closepanel, 
+.panel, 
+.btn_closepanel_down.close {
+  display:none;
+  clear:both;
+}
+.btn_closepanel {
+  color: #9da379;
+  float:right;
+}
+#panel {
+  height:300px;
+}
+
+/* bground
+------------------------- */
+.bg-img {
+  height:100%;
+  background:#fff;
+  border:4px solid #fff;
+  padding:0px;
+  margin:0;
+}
+
+
+.bg-img.start{
+  background:#efefef url('../img/f_ffm_snow.jpg') no-repeat center center;  
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bg-img.logo{
+  background:#fff url('../img/LogoAINSLEY_grau.png') no-repeat center center;  
+  background-size: 90% auto;
+}
+.bg-img.team{
+  background:#fff url('../img/f_team.jpg') no-repeat center center;  
+  background-size: cover;
+}
+
+.teaser-main.about{
+  background:#f9f6f9;
+}
+
+.maintextfeld{
+  padding:20px;
+}
+
+table.big {
+  width:100%;
+}
+h1, h2, h3, h4, .fltext  {
+  color:#787878;
+}
+h2, .h2 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 20px;
+}
+h3 {
+  font-size: 30px;
+  margin-bottom:15px;
+}
+h1.bottom  {
+  position:absolute;
+  bottom:0px;
+}
+
+.white {
+  color: #fff;
+}
+.whitelink {
+  color: #ccc;
+  text-decoration: underline;
+}
+p.haftung {
+  font-size:0.9em;
+  line-height:1.05em;
+}
+
+.fltext.super {
+  font-size: 1.2em;
+  padding:20px 80px;
+}
+.fltext {
+  font-size: 1.1em;
+  padding:25px 10px 5px;
+  line-height: 1.2em;
+}
+.fltext .emph {
+  font-size: 20px;
+ 
+}
+ul.menu{
+  margin:0;
+  padding:0 15px;
+}
+
+ul.menu li{
+  color:#515151;
+  font-size:1.1em;
+  list-style: none;
+}
+ul.menu li a{
+  color:#515151;
+}
+ul.menu li.active a, ul.menu li a:hover{
+  //color:#568f82;
+  color:#b5a485;
+}
+
+
+.bg-green {
+  background:#618f82;
+  vertical-align: middle;
+  padding:10px;
+  border:4px solid #fff;
+}
+
+.rollcontainer {
+  width:100%;
+  height:100%;
+  padding:0;
+  margin:0;     
+}
+.claimbox{
+  width:100%;
+  height:100%;
+  display:table;
+}
+.claim{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.claim.icon img{
+  position:absolute;
+  bottom:10px;
+  right:0px;
+  padding:5px 40px 10px;
+  background: rgba(20,20,20,0.6);
+}
+.claim .click{
+  position:absolute;
+  bottom:20px;
+  right:0px;
+  padding:0 20px;
+  background: rgba(220,220,220,0.6);
+}
+.claim.subtitle{
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+}
+
+h1.title {
+  font-size: 2.4em;
+  color:#515151;
+}
+
+
+/* rollcontainer
+------------------------- */
+.rollcontainer .linkbox {
+  display:none;
+  margin:0;
+  border:0;
+}
+.rollcontainer:hover .linkbox {
+  display:table;
+  margin:0;
+  border:0;
+}
+
+.rollcontainer .claimbox {
+  display:table;
+  margin:0;
+  border:0;
+}
+.rollcontainer:hover .claimbox {
+  display:none;
+  margin:0;
+  border:0;
+}
+.linkbox{
+  width:100%;
+  height:100%;
+  display:table;
+  background:#707070;
+  margin:0;
+  padding:0;
+}
+.linktitle{
+  display: table-cell;
+  width:100%;
+  text-align: center;
+  vertical-align: middle;
+  margin:0;
+  padding:0;
+  border:0;
+}
+.linktitle h1 {
+  font-size: 2.2em;
+  color:#ccc;
+  margin:0;
+  border:0;
+}
+/* 
+------------------------- */
+.bg-color {
+  border:4px solid #fff;
+  margin:0;
+  padding:0;
+}
+
+.bg-color.greygreen {
+  background:#a4aeab;
+}
+.bg-color.mokkagreen {
+  background:#c9c2a5;
+}
+.bg-color.mokkadarkgreen {
+  background:#9e9260;
+}
+.bg-color.mokkadark {
+  background:#a0886e;
+}
+.bg-color.mokka {
+  background:#f9eac9;
+}
+.bg-color.mokkagrey {
+  background:#725f4f;
+}
+.bg-color.mokkalightgrey {
+  background:#ebe5db;
+  //background:#e8e3d9;
+}
+.bg-color.creme {
+  background:#faf3e2;
+}
+.bg-color.light {
+  background:#fcfaf6;
+}
+.bg-color.moor {
+  background:#9b8e5b;
+}
+a {
+  color:#a0886e; //mokka
+  text-decoration:underline;
+}
+
+.bg-img.startlogo{
+  background:#fcfaf6 url('../img/LogoAINSLEY_grau.png') no-repeat center center;  
+  //background-size: 90% auto;
+}
+.bg-img.leistungen {
+  background:#efefef url('../img/f_team.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bg-img.map {
+  background:#efefef url('../img/map_BW.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bg-img.baustelletmp{
+  background:#efefef url('../img/f_baukran.jpg') no-repeat center center;  
+  background-size: cover;
+}
+.bg-img.tree {
+  background:#efefef url('../img/f_trees.jpg') no-repeat center center;
+  background-size: cover;
+}
+.bg-img.kind {
+  background:#efefef url('../img/f_kind_papa.jpg') no-repeat center center;
+  background-size: cover;
+}
+.bg-img.sofa {
+  background:#efefef url('../img/sofa_top_s.jpg') no-repeat top center;  
+  background-size: cover;
+}
+.bg-img.rolle {
+  background:#efefef url('../img/f_planrollen.jpg') no-repeat center center;  
+  background-size: cover;
+}
+.bg-img.baustelle {
+  background:#efefef url('../img/f_baustelle.jpg') no-repeat center center;  
+  background-size: cover;
+}
+.bg-img.projekt {
+  background:#efefef url('../img/f_bauprojekt.jpg') no-repeat center center;  
+  background-size: cover;
+}
+.bg-img.neu_ohl {
+  background:#efefef url('../img/bgliste4.jpg') no-repeat center center;  
+  background-size: cover;
+}
+.bg-img.ohl_an {
+  background:#efefef url('../img/Ohlengarten_ext2.jpg') no-repeat center center;  
+  background-size: cover;
+}
+
+.bg-img.imprint {
+  background:#efefef url('../img/f_altstadt.jpg') no-repeat center left;  
+  background-size: cover;
+}
+.bg-img.man {
+  background:#efefef url('../img/f_cigar.jpg') no-repeat center left;  
+  background-size: cover;
+}
+.bg-img.piano {
+  background:#efefef url('../img/Fotolia_67724687_XL.jpeg') no-repeat center left;  
+  background-size: cover;
+}
+.bg-img.dog {
+  background:#efefef url('../img/kind_hund.jpg') no-repeat center left;  
+  background-size: cover;
+}
+
+.bg-img.house {
+  background:#efefef url('../img/f_house.jpg') no-repeat center left;  
+  background-size: cover;
+}
+.bg-img.efh {
+  background:#efefef url('../img/f_tuer.jpg') no-repeat center left;  
+  background-size: cover;
+}
+.bg-img.kitchen {
+  background:#efefef url('../img/f_kitchen.jpg') no-repeat center left;  
+  background-size: cover;
+}
+.bg-img.zaun {
+  background:#efefef url('../img/f_zaun.jpg') no-repeat center center;  
+  background-size: cover;
+}
+.bg-img.senior {
+  background:#efefef url('../img/f_senior.jpg') no-repeat center left;  
+  background-size: cover;
+}
+//referenzen
+
+//aktuelle projekte
+.bg-img.ohlen_s {
+  background:#efefef url('../img/ohlenvis.jpg') no-repeat center right;  
+  background-size: cover;
+}
+.bg-img.aba {
+  background:#efefef url('../img/ohlengarten.jpg') no-repeat center left;  
+  background-size: cover;
+}
+.bg-img.europa {
+  background:#efefef url('../img/1410Langen_wTag.jpg') no-repeat center center;  
+  background-size: cover;
+}
+.bg-img.europa2 {
+  background:#efefef url('../img/1409_EP_Appartement.jpg') no-repeat center right;  
+  background-size: cover;
+}
+.bg-img.europa3 {
+  background:#efefef url('../img/1409_EP_Nacht.jpg') no-repeat center right;  
+  background-size: cover;
+}
+.bg-img.europa4 {
+  background:#efefef url('../img/1409_Langen_bg.jpg') no-repeat center right;  
+  background-size: cover;
+}
+.bg-img.stadt {
+  background:#efefef url('../img/stadt_be.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bg-img.stadt2 {
+  background:#efefef url('../img/stadt2.jpg') no-repeat center center;  
+  background-size: cover;
+}
+.bg-img.stadt3 {
+  background:#efefef url('../img/stadt3.jpg') no-repeat center center;  
+  background-size: cover;
+}
+.bg-img.park {
+  background:#efefef url('../img/parkquartier1.jpg') no-repeat center center;  
+  background-size: cover;
+}
+.bg-img.roof {
+  background:#efefef url('../img/roofgarden_teilansicht.jpg') no-repeat center center;  
+  background-size: cover;
+}
+.bg-img.brick {
+  background:#efefef url('../img/Terrasse2_E8.jpg') no-repeat center center;  
+  background-size: cover;
+}
+.bg-img.neubau {
+  background:#efefef url('../img/f_neubau.jpg') no-repeat center center;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bg-img.referenzen {
+  background:#a0886e url('../img/tueren_oeffnen.png') no-repeat center center;  
+  background-size: 90% auto;
+}
+.bg-img.rics {
+  background:#fff url('../img/RICS.png') no-repeat center center;  
+  background-size: 90% auto;
+}
+
+.bg-img.contact {
+  background:#efefef url('../img/f_kontakt.jpg') no-repeat bottom right; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.last {
+  margin-bottom:54px;
+}
+.bg-yell {
+  background:#ccc;
+  background-size: cover;
+  border:4px solid #fff;
+  padding:20px;
+}
+.bg-img.ffm {
+  background:#f9f6f9 url('../img/f_coffee.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bg-img.sweidner {
+  background:#f5efe6 url('../img/sweidner.jpg') no-repeat center right; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bg-img.mweidner {
+  background:#f5efe6 url('../img/mweidner.jpg') no-repeat center right; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bg-img.sigmund {
+  background:#f5efe6 url('../img/sigmund.jpg') no-repeat center left; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+//FOOTER NAVBAR
+.container.footer{
+  background-color:#f9f6f9;
+}
+.navbar-default {
+  background-color: #f9f6f9;
+  border:0;
+}
+
+.navbar-brand {
+  float: left;
+  font-size: 18px;
+  height: 50px;
+  line-height: 20px;
+  padding: 0px;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #b5a485;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #515151;
+}
+
+
+@media (min-width: 991px) {
+
+
+.mobil-none {
+  display:block;
+}
+.classic-none {
+    display: none;
+  }
+  hr.classic-none {
+    display:none;
+  }
+}
+
+
+@media (max-width: 991px) {
+
+ .row {
+    height:auto;
+  }
+.teaser  > a > div.s33, .teaser > div.s33 {
+  height:300px;
+  border:2px solid #fff;
+}
+.teaser  > a > div.s66, .teaser > div.s66  {
+  height:300px;
+}
+.teaser  > a > div.s100, .teaser > div.s100 {
+  height:600px;
+  border:4px solid #fff;
+}
+.mobil-none {
+  display:none;
+}
+
+
+/* rollcontainer
+------------------------- */
+.rollcontainer{
+  display:none;
+}
+  .mobilbox {
+    width:100%;
+    height:300px;
+    display:table; 
+    text-align:center;
+  }
+   .mobiltext {
+    display: table-cell;
+    vertical-align: bottom;
+    color:#515151;
+    padding:20px;
+    height:300px;
+    width:100%;
+  }
+  .mobiltext.cent {
+    width:100%;
+    text-align:center;  
+    vertical-align: bottom;
+  }
+  .mobilbox a{
+    text-decoration:none;
+  }
+  .mobiltext h1{
+    width:300px; 
+    padding:5px;
+    bottom:5px;
+    background:rgba(255,255,255,0.8);
+  }
+  .mobiltext h1.dark{
+    width:300px; 
+    bottom:5px;
+    background:rgba(160,136,110,0.2);
+  }
+  .subtitle h1{
+      font-size:1.8em;
+  }
+   .fltext.large {
+  font-size:1em;
+}
+.teaser  > div.textbox{
+    height:auto;
+    margin-bottom:20px;
+  }
+}
+/* ipad landscape
+------------------------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) { 
+    
+
+.claim .fltext {
+  font-size:1.1em;
+  padding:0 5px;
+}
+.teaser  > div.textbox.land{
+    height:auto;
+    margin-bottom:20px;
+  }
+ .land-none {
+  display:none;
+}
+.landshow {
+  display:block;
+}
+.mobil-none {
+    display: block;
+}
+
+}
